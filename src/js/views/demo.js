@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useContext } from "react";
 import { Link } from "react-router-dom";
 
+
 import { Context } from "../store/appContext";
 
 import "../../styles/demo.css";
@@ -27,8 +28,8 @@ export const Demo = () => {
 									Check store/flux.js scroll to the actions to see the code
 								</p>
 							) : null}
-							<button className="btn btn-success" onClick={() => actions.changeColor(index, "orange")}>
-								Change Color
+							<button className="btn btn-success" onClick={() => actions.delete(index, "orange")}>
+								Remove
 							</button>
 						</li>
 					);
