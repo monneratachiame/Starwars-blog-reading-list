@@ -4,7 +4,7 @@ import { Context } from "../store/appContext";
 
 export const CardCharacter = () => {
     const { store, actions } = useContext(Context);
-
+    // criou constante - armazenou em data  - puxou o que salvei na store
     const dataCharacter = store?.people?.[0]?.result.properties;
     console.log("alo", dataCharacter);
 

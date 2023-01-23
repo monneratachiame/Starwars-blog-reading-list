@@ -11,7 +11,7 @@ export const Navbar = () => {
 		return (
 			<li key={index} >
 				
-				 	<a className="dropdown-item" onClick={() => {actions.SingleCharacteres(item.url)}}> {item.Name} </a>
+				<a className="dropdown-item" onClick={() => {actions.SingleCharacteres(item.url)}}> {item.Name} </a>
 				 
 			</li>
 			)
